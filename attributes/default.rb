@@ -23,9 +23,9 @@ case node['platform']
 end
 
 
-default["winbind"]["packages"] = packages
-default["samba"]["security"] = "ads"
-default["samba"]["config"] = "/etc/samba/smb.conf"
+set["winbind"]["packages"] = packages
+set["samba"]["security"] = "ads"
+set["samba"]["config"] = "/etc/samba/smb.conf"
 
 case node['platform_family']
 when "arch"

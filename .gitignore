@@ -15,6 +15,7 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+.kitchen.yml
 
 # RubyMine
 .idea
