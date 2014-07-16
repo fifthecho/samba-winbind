@@ -1,5 +1,5 @@
-site :opscode
+source "https://api.berkshelf.com"
 
-# metadata
-cookbook 'winbind', git: 'https://github.com/fifthecho/samba-winbind.git'
+metadata
+
 cookbook 'apt'

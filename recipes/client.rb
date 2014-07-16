@@ -29,7 +29,7 @@ packages.each do |pkg|
 	end
 end
 
-template node["winbind"]["config"] do
+template node["samba"]["config"] do
   source "smb.conf.erb"
   owner "root"
   group "root"
